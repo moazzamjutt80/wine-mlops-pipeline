@@ -15,6 +15,8 @@ RANDOM_FOREST_CONFIGS = [
     {"n_estimators": 120, "max_depth": 8},
 ]
 
+BEST_PARAMS = {"n_estimators": 150, "max_depth": 6}
+
 GRADIENT_BOOSTING_CONFIGS = [
     {"n_estimators": 60, "learning_rate": 0.1, "max_depth": 2},
     {"n_estimators": 120, "learning_rate": 0.05, "max_depth": 2},
